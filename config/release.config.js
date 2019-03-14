@@ -1,6 +1,6 @@
 module.exports = {
+  preset: 'angular',
   analyzeCommits: {
-    preset: 'angular',
     parserOpts: {
       // Optional, only you want to have emoji commit support
       headerPattern: /^(?::([\w-]*):)?\s*(\w*):\s*(.*)$/,
@@ -8,7 +8,6 @@ module.exports = {
     }
   },
   generateNotes: {
-    preset: 'angular',
     parserOpts: {
       // Optional, only you want to have emoji commit support
       headerPattern: /^(?::([\w-]*):)?\s*(\w*):\s*(.*)$/,
