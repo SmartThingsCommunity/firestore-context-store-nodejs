@@ -42,7 +42,7 @@
     "semicolon": false
   },
   "sgc": {
-    "emoji": true,
+    "emoji": false,
     "lowercaseTypes": true,
     "rules": {
       "endWithDot": false
