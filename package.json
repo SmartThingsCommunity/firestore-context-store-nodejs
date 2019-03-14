@@ -9,7 +9,7 @@
     "main": "index.js",
     "scripts": {
         "test": "xo && nyc mocha test/**/*.js",
-        "semantic-release": "semantic-release -e ./config/release.config.js"
+        "semantic-release": "semantic-release"
     },
     "repository": "github:SmartThingsCommunity/firestore-context-store-nodejs",
     "bugs": "https://github.com/SmartThingsCommunity/firestore-context-store-nodejs/issues",
@@ -19,7 +19,7 @@
     },
     "devDependencies": {
         "chai": "~4.2.0",
-        "conventional-changelog-eslint": "^3.0.1",
+        "conventional-changelog-angular": "~5.0.3",
         "mocha": "~6.0.2",
         "nyc": "~13.3.0",
         "xo": "~0.24.0",
