@@ -10,19 +10,22 @@
   "scripts": {
     "test": "xo && nyc mocha test/**/*.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": "github:SmartThingsCommunity/firestore-context-store-nodejs",
   "bugs": "https://github.com/SmartThingsCommunity/firestore-context-store-nodejs/issues",
   "homepage": "https://github.com/SmartThingsCommunity/firestore-context-store-nodejs#readme",
   "dependencies": {
-    "firebase-admin": "~7.0.0"
+    "firebase-admin": "~7.3.0"
   },
   "devDependencies": {
     "chai": "~4.2.0",
     "conventional-changelog-eslint": "~3.0.1",
-    "mocha": "~6.0.2",
-    "nyc": "~13.3.0",
+    "mocha": "~6.1.4",
+    "nyc": "~14.0.0",
     "semantic-git-commit-cli": "~3.2.2",
-    "semantic-release": "~15.13.3",
+    "semantic-release": "^15.13.12",
     "xo": "~0.24.0"
   },
   "engines": {
