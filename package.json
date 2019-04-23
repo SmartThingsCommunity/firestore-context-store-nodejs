@@ -10,6 +10,9 @@
   "scripts": {
     "test": "xo && nyc mocha test/**/*.js"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": "github:SmartThingsCommunity/firestore-context-store-nodejs",
   "bugs": "https://github.com/SmartThingsCommunity/firestore-context-store-nodejs/issues",
   "homepage": "https://github.com/SmartThingsCommunity/firestore-context-store-nodejs#readme",
