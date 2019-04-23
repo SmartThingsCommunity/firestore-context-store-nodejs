@@ -8,8 +8,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "test": "xo && nyc mocha test/**/*.js",
-    "semantic-release": "semantic-release -e ./config/release.config.js"
+    "test": "xo && nyc mocha test/**/*.js"
   },
   "repository": "github:SmartThingsCommunity/firestore-context-store-nodejs",
   "bugs": "https://github.com/SmartThingsCommunity/firestore-context-store-nodejs/issues",

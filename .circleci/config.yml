@@ -49,7 +49,7 @@ jobs:
     steps:
       - *attach_workspace
       - checkout
-      - run: npm run semantic-release
+      - run: npx semantic-release
 
 workflows:
   build:
