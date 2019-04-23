@@ -2,7 +2,7 @@
 
 <p>
 <a href="https://npmjs.org/package/@smartthings/firestore-context-store"><img src="https://badge.fury.io/js/@smartthings/firestore-context-store.svg"></a>
-<a href="https://circleci.com/gh/SmartThingsCommunity/firestore-context-store-nodejs.svg?style=svg"><img src="https://circleci.com/gh/SmartThingsCommunity/firestore-context-store-nodejs.svg?style=svg"></a>
+<a href="https://circleci.com/gh/SmartThingsCommunity/firestore-context-store-nodejs"><img src="https://circleci.com/gh/SmartThingsCommunity/firestore-context-store-nodejs.svg?style=svg"></a>
 <a href="https://david-dm.org/SmartThingsCommunity/firestore-context-store-nodejs"><img src="https://david-dm.org/SmartThingsCommunity/firestore-context-store-nodejs.svg?theme=shields.io"></a>
 <a href="https://codecov.io/gh/SmartThingsCommunity/firestore-context-store-nodejs"><img src="https://codecov.io/gh/SmartThingsCommunity/firestore-context-store-nodejs/branch/master/graph/badge.svg" /></a>
 </p>
