@@ -46,15 +46,12 @@ To use this module to add Firebase Cloud Firestore context storage to your Smart
 1. **Create a context store instance** with the service account object and the document collection name and pass it to the SmartApp SDK object. For example, the following code:
 
 ```javascript
-const smartapp = require('@smartthings/smartapp');
+const SmartApp = require('@smartthings/smartapp');
 const FirestoreDBContextStore = require('@smartthings/firestore-context-store');
 const serviceAccount = require('./googleservices-YOURAPPNAME-AND-ID.json')
 
-smartapp
+const smartapp = new SmartApp()
   .contextStore(new FirestoreDBContextStore(serviceAccount, 'installedapps'))
-  .configureI18n()
-  .page('mainPage', (page) => {
-    ...
 ```
 
 This will use a document collection named `installedapps` to store documents as keyed by the `installedAppId` value.
