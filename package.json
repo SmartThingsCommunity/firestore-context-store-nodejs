@@ -21,11 +21,11 @@
   },
   "devDependencies": {
     "chai": "~4.2.0",
-    "conventional-changelog-eslint": "~3.0.1",
+    "conventional-changelog-conventionalcommits": "^4.6.3",
     "mocha": "~6.1.4",
     "nyc": "~14.0.0",
-    "semantic-git-commit-cli": "~3.2.2",
-    "semantic-release": "^15.13.12",
+    "semantic-git-commit-cli": "~3.7.0",
+    "semantic-release": "^19.0.2",
     "xo": "~0.24.0"
   },
   "engines": {
@@ -39,6 +39,9 @@
   "license": "Apache-2.0",
   "xo": {
     "space": 2,
-    "semicolon": false
+    "semicolon": false,
+    "rules": {
+      "promise/prefer-await-to-then": "warn"
+    }
   }
 }
