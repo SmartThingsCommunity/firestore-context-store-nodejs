@@ -17,7 +17,7 @@
   "bugs": "https://github.com/SmartThingsCommunity/firestore-context-store-nodejs/issues",
   "homepage": "https://github.com/SmartThingsCommunity/firestore-context-store-nodejs#readme",
   "dependencies": {
-    "firebase-admin": "^10.0.2"
+    "firebase-admin": "^11.5.0"
   },
   "devDependencies": {
     "chai": "~4.2.0",
