@@ -22,7 +22,7 @@
   "devDependencies": {
     "chai": "~4.2.0",
     "conventional-changelog-conventionalcommits": "^4.6.3",
-    "mocha": "~6.1.4",
+    "mocha": "~6.2.3",
     "nyc": "~14.0.0",
     "semantic-git-commit-cli": "~3.7.0",
     "semantic-release": "^19.0.2",
