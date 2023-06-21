@@ -73,4 +73,4 @@ can read and share information.
 
 Licensed under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
 
-Copyright 2019 SmartThings, Inc.
+Copyright 2019 Samsung Electronics Co., LTD.
