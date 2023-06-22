@@ -2,7 +2,7 @@
   "name": "@smartthings/firestore-context-store",
   "version": "1.0.0",
   "description": "Stores SmartApp configuration and auth tokens for use in app-initiated calls",
-  "author": "SmartThings, Inc.",
+  "author": "Samsung Electronics Co., LTD.",
   "contributors": [
     "Eric Rodewald <eric.rodewald@smartthings.com>"
   ],
