@@ -1,6 +1,6 @@
 /* eslint no-undef: "off" */
-const assert = require('assert')
-const FirestoreDBContextStore = require('..')
+import assert from 'node:assert'
+import { FirestoreDBContextStore } from '../index.js'
 
 describe('index', () => {
   it('should reject invalid service account', () => {

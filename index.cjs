@@ -1,6 +1,6 @@
-import * as admin from 'firebase-admin'
+const admin = require('firebase-admin')
 
-export class FirestoreDBContextStore {
+module.exports = class FirestoreDBContextStore {
   constructor(serviceAccount, collectionName) {
     if (!serviceAccount) {
       throw new Error('Need a valid serviceAccount.json')
